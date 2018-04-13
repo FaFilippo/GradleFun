@@ -1,0 +1,19 @@
+products:
+   src/test/java/LibraryTest.java -> build/classes/test/LibraryTest.class
+   src/test/scala/LibrarySuite.scala -> build/classes/test/LibrarySuite$$anonfun$1.class
+   src/test/scala/LibrarySuite.scala -> build/classes/test/LibrarySuite.class
+binary dependencies:
+   src/test/java/LibraryTest.java -> /home/IASuserdev/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar
+   src/test/java/LibraryTest.java -> build/classes/main/Library.class
+   src/test/java/LibraryTest.java -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64/jre/lib/rt.jar
+   src/test/scala/LibrarySuite.scala -> /home/IASuserdev/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar
+   src/test/scala/LibrarySuite.scala -> /home/IASuserdev/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_2.11/3.0.4/a97b52d531f6010b424813af260ac6ce748e187e/scalactic_2.11-3.0.4.jar
+   src/test/scala/LibrarySuite.scala -> /home/IASuserdev/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.11/3.0.4/a0df09cc87bb681674b05a883462b121866784e5/scalatest_2.11-3.0.4.jar
+   src/test/scala/LibrarySuite.scala -> build/classes/main/LibraryS.class
+source dependencies:
+   src/test/java/LibraryTest.java -> src/test/java/LibraryTest.java
+external dependencies:
+class names:
+   src/test/java/LibraryTest.java -> LibraryTest
+   src/test/scala/LibrarySuite.scala -> LibrarySuite
+   src/test/scala/LibrarySuite.scala -> LibrarySuite$$anonfun$1

@@ -1,0 +1,13 @@
+products:
+   src/main/java/Library.java -> build/classes/main/Library.class
+   src/main/scala/LibraryS.scala -> build/classes/main/LibraryS.class
+binary dependencies:
+   src/main/java/Library.java -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64/jre/lib/rt.jar
+   src/main/scala/LibraryS.scala -> /home/IASuserdev/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
+   src/main/scala/LibraryS.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64/jre/lib/rt.jar
+source dependencies:
+   src/main/java/Library.java -> src/main/java/Library.java
+external dependencies:
+class names:
+   src/main/java/Library.java -> Library
+   src/main/scala/LibraryS.scala -> LibraryS
