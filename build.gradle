@@ -15,8 +15,11 @@ apply plugin: 'scala'
 repositories {
     // Use jcenter for resolving your dependencies.
     // You can declare any Maven/Ivy/file repository here.
-    mavenCentral()
-    jcenter()
+    mavenCentral() //For maven Repo
+    jcenter()  // For standard jar java
+    flatDir {
+       dirs 'libs' //take jar file from libs
+    }
 }
 
 jar {
@@ -42,7 +45,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     testCompile 'junit:junit:4.12'
     compile 'junit:junit:4.12'
-    
+    compile fileTree(dir: 'libs', include: '*.jar')
+
     compile 'org.scala-lang:scala-library:2.11.8' 
 
     testCompile 'junit:junit:4.12' 
@@ -50,4 +54,3 @@ dependencies {
 
     testRuntime 'org.scala-lang.modules:scala-xml_2.11:1.0.6' 
 }
-
